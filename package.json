@@ -1,16 +1,18 @@
 {
   "name": "package-test-obama",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "https://github.com/eggpoison/package-test-obama.git",
   "author": "eggpoison <edwrd.magee@gmail.com>",
   "license": "MIT",
   "scripts": {
-   "build": "tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
   },
-  "files": ["lib/**"]
+  "files": [
+    "lib/**"
+  ]
 }
